@@ -19,6 +19,12 @@ $(call inherit-product-if-exists, device/xiaomi/annibale-miuicamera/device.mk)
 # Lineage stuff
 TARGET_EXCLUDES_AUDIOFX := true
 
+# AxionOS Device Properties
+AXION_CAMERA_REAR_INFO := 50,12,8
+AXION_CAMERA_FRONT_INFO := 20
+AXION_MAINTAINER := SIFAT(UNOFFICIAL)
+AXION_PROCESSOR := Snapdragon_8_Elite
+
 PRODUCT_NAME := lineage_annibale
 PRODUCT_DEVICE := annibale
 PRODUCT_BRAND := POCO
